@@ -1,0 +1,17 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+As was stated in the video, it combed through the entire code to only highlight what was different between the original and new versions.  The typo was easy to miss and would have taken much longer if manual review of the entirety of both codes had to occur.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+The main thing that comes to my mind is if you make some irreversible mistake you can go back to a previous version and work from there.  Also, it might give you insight into the history of a program and how it was made.  Perhaps you can also more effectively redesign a code for a different purpose by going back and working with a previous version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros would include having more control over when saves happen (which can prevent useless/incomplete code from being saved).  The main con is human error, where saves can be done too infrequently or accidentally skipped altogether.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+I'm not really sure, but my best guess would be that the creators of these programs designed them for different uses.  Git might be more tailored for writing programs while Google Docs is more of a consumer product.
+
+How can you use the commands git log and git diff to view the history of files?
+It appears that git log provides a list of change ID's and git diff will allow comparing the differences in specific ID's.
+
+How might using version control make you more confident to make changes that could break something?
+It takes away the fear that if you break something it will be irreparably or permanently broken as you can go back to a previous version and determine when the break happened.

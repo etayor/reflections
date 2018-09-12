@@ -1,0 +1,5 @@
+What happens when you initialize a repository?  Why do you need to do it?
+It seems that initializing a repository will create a new, empty repository.  I'm not entirely sure why you need to do it other than when creating repositories often times it would probably be desirable to start from scratch.
+
+How is the staging area different from the working directory and the repository?  What value do you think it offers?
+I'm not entirely sure.  It seems the directory and repository hold everything while the staging area lets you control what files you put inside it.  The value I think it offers would primarily come from it giving you the ability to control which files you commit.
