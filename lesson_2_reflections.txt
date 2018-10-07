@@ -3,3 +3,18 @@ It seems that initializing a repository will create a new, empty repository.  I'
 
 How is the staging area different from the working directory and the repository?  What value do you think it offers?
 I'm not entirely sure.  It seems the directory and repository hold everything while the staging area lets you control what files you put inside it.  The value I think it offers would primarily come from it giving you the ability to control which files you commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Only add one version at a time, then commit.
+
+What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
+Branches provide alternative paths in the save files so you don't have to, for example, commit your finished product to adding experimental code.
+
+How do the diagrams help you visualize the branch structure?
+It's easier to see where branches separate from the main branch.
+
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+The diagram is the most accurate way to think of merging.  It creates a new commit consisting of a combination of all the code of the commits merged.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+I'm not sure what the difference is between Git merging manually or automatically.  If merging automatically means using the git merge command, then it has the advantage of merging commits quickly, but if there is a conflict it could be time consuming to comb through everything and determine how to fix the conflict.
