@@ -1,4 +1,8 @@
 When would you want to create a new repository rather than keeping all your work local?
 The main reason I can think of is if the project is collaborative and people want to make changes from their own computers.
+
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Doing it manually gives you more control over what gets updated and when.
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+A branch is not related to the other two.  It is for your local file that you want to update without risking already completed code.  A clone is when you copy an existing file or your own, on to your local drive.  A fork is strictly a github function and will do the same thing as a clone but will only copy a file from someone else's github account to your github account.
