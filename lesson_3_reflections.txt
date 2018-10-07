@@ -1,0 +1,2 @@
+When would you want to create a new repository rather than keeping all your work local?
+The main reason I can think of is if the project is collaborative and people want to make changes from their own computers.
