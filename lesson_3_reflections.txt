@@ -6,3 +6,6 @@ Doing it manually gives you more control over what gets updated and when.
 
 Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 A branch is not related to the other two.  It is for your local file that you want to update without risking already completed code.  A clone is when you copy an existing file or your own, on to your local drive.  A fork is strictly a github function and will do the same thing as a clone but will only copy a file from someone else's github account to your github account.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+If you work without internet access you can still get to the last known state.
